@@ -7,4 +7,4 @@ download TCPConnMonitor.zip\
 unzip to a new directory\
 configure new source on eventviewer: ```eventcreate /id 101 /t WARNING /l application /SO TCPConnMonitor /d "TCP Connection Monitor"```\
 install the new service with the command: ```TCPConnMonitor.exe --startup delayed install```\
-start the service: ```TCPConnMonitor.exe start```\
+start the service: ```TCPConnMonitor.exe start```
